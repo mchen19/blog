@@ -16,3 +16,6 @@ Disallow: /fancybox/
 Sitemap: https://www.mchen.ink/search.xml
 Sitemap: https://www.mchen.ink/sitemap.xml
 Sitemap: https://www.mchen.ink/baidusitemap.xml
+
+User-agent: archive.org_bot
+Disallow: /
