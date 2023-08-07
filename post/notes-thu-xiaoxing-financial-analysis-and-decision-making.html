@@ -12,24 +12,25 @@ html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
 toggle.addEventListener('click', () => {
 localStorage.dark = !(html.dataset.dark == 'true');
 html.dataset.dark = localStorage.dark;
-});</script><!-- hexo injector head_end start --><script async defer data-website-id="b9e01f73-91d0-44cc-aad4-4b0c624a4543" src="https://analytic.mchen.xyz/umami.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.0.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">学习笔记 - 清华肖星「财务分析与决策」</h1><a id="logo" href="/.">VOMC</a><p class="description">Voice of Michael Chen</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/travel/"><i class="fa undefined"> 足迹</i></a><a href="/donate/"><i class="fa fa-gift"> 鸣谢</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">学习笔记 - 清华肖星「财务分析与决策」</h1><div class="post-meta">2022-05-22<span> | </span><span class="category"><a href="/categories/%E7%AC%94%E8%AE%B0/">笔记</a></span><script src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script><span id="busuanzi_container_page_pv"> | <span id="busuanzi_value_page_pv"></span><span> 阅读</span></span></div><a class="disqus-comment-count" href="/post/notes-thu-xiaoxing-financial-analysis-and-decision-making.html#vcomment"><span class="waline-comment-count" id="/post/notes-thu-xiaoxing-financial-analysis-and-decision-making.html"></span><span> 条评论</span></a><div class="clear"><div class="toc-article" id="toc"><div class="toc-title">文章目录</div><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B5%84%E4%BA%A7%E8%B4%9F%E5%80%BA%E8%A1%A8"><span class="toc-number">1.</span> <span class="toc-text"> 资产负债表</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B5%84%E4%BA%A7-assets"><span class="toc-number">1.1.</span> <span class="toc-text"> 资产 Assets</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B4%9F%E5%80%BA-liabilities"><span class="toc-number">1.2.</span> <span class="toc-text"> 负债 Liabilities</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%82%A1%E4%B8%9C%E6%9D%83%E7%9B%8A"><span class="toc-number">1.3.</span> <span class="toc-text"> 股东权益</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%A9%E6%B6%A6%E8%A1%A8"><span class="toc-number">2.</span> <span class="toc-text"> 利润表</span></a></li></ol></div></div><div class="post-content"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>网易公开课<a target="_blank" rel="noopener" href="https://open.163.com/newview/movie/free?pid=MDPKDHH4O&amp;mid=MDPKDL0DD">地址</a></p>
-<h2 id="资产负债表"><a class="markdownIt-Anchor" href="#资产负债表"></a> 资产负债表</h2>
+});</script><!-- hexo injector head_end start --><script async defer data-website-id="b9e01f73-91d0-44cc-aad4-4b0c624a4543" src="https://analytic.mchen.xyz/umami.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.0.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">学习笔记 - 清华肖星「财务分析与决策」</h1><a id="logo" href="/.">VOMC</a><p class="description">Voice of Michael Chen</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/travel/"><i class="fa undefined"> 足迹</i></a><a href="/donate/"><i class="fa fa-gift"> 鸣谢</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">学习笔记 - 清华肖星「财务分析与决策」</h1><div class="post-meta">2022-05-22<span> | </span><span class="category"><a href="/categories/%E7%AC%94%E8%AE%B0/">笔记</a></span><script src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script><span id="busuanzi_container_page_pv"> | <span id="busuanzi_value_page_pv"></span><span> 阅读</span></span></div><a class="disqus-comment-count" href="/post/notes-thu-xiaoxing-financial-analysis-and-decision-making.html#vcomment"><span class="waline-comment-count" id="/post/notes-thu-xiaoxing-financial-analysis-and-decision-making.html"></span><span> 条评论</span></a><div class="clear"><div class="toc-article" id="toc"><div class="toc-title">文章目录</div><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B4%A2%E5%8A%A1%E4%B8%89%E8%A1%A8"><span class="toc-number">1.</span> <span class="toc-text"> 财务三表</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B5%84%E4%BA%A7%E8%B4%9F%E5%80%BA%E8%A1%A8"><span class="toc-number">1.1.</span> <span class="toc-text"> 资产负债表</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%B5%84%E4%BA%A7-assets"><span class="toc-number">1.1.1.</span> <span class="toc-text"> 资产 Assets</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%B4%9F%E5%80%BA-liabilities"><span class="toc-number">1.1.2.</span> <span class="toc-text"> 负债 Liabilities</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%82%A1%E4%B8%9C%E6%9D%83%E7%9B%8A"><span class="toc-number">1.1.3.</span> <span class="toc-text"> 股东权益</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%A9%E6%B6%A6%E8%A1%A8"><span class="toc-number">1.2.</span> <span class="toc-text"> 利润表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BC%81%E4%B8%9A13%E9%A1%B9%E7%BB%8F%E6%B5%8E%E6%B4%BB%E5%8A%A8%E4%B8%8E%E8%B4%A2%E5%8A%A1%E6%8A%A5%E8%A1%A8%E7%9A%84%E5%85%B3%E7%B3%BB"><span class="toc-number">1.3.</span> <span class="toc-text"> 企业13项经济活动与财务报表的关系</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%8E%B0%E9%87%91%E6%B5%81%E9%87%8F%E8%A1%A8"><span class="toc-number">1.4.</span> <span class="toc-text"> 现金流量表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E8%A1%A8%E9%80%BB%E8%BE%91%E5%85%B3%E7%B3%BB"><span class="toc-number">1.5.</span> <span class="toc-text"> 三表逻辑关系</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B4%A2%E5%8A%A1%E5%88%86%E6%9E%90%E7%9A%84%E6%96%B9%E6%B3%95"><span class="toc-number">2.</span> <span class="toc-text"> 财务分析的方法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%90%8C%E5%9E%8B%E5%88%86%E6%9E%90"><span class="toc-number">2.1.</span> <span class="toc-text"> 同型分析</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9B%88%E5%88%A9%E7%8A%B6%E5%86%B5%E5%88%86%E6%9E%90"><span class="toc-number">2.2.</span> <span class="toc-text"> 盈利状况分析</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%90%A5%E8%BF%90%E8%83%BD%E5%8A%9B%E5%88%86%E6%9E%90"><span class="toc-number">2.3.</span> <span class="toc-text"> 营运能力分析</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9F%AD%E6%9C%9F%E5%81%BF%E5%80%BA%E8%83%BD%E5%8A%9B"><span class="toc-number">2.4.</span> <span class="toc-text"> 短期偿债能力</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B4%A2%E5%8A%A1%E5%86%B3%E7%AD%96"><span class="toc-number">3.</span> <span class="toc-text"> 财务决策</span></a></li></ol></div></div><div class="post-content"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>课程<a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PLQ6rDC61XVwUKrzI4hg0ESClyhbX7qqBy">地址</a></p>
+<h2 id="财务三表"><a class="markdownIt-Anchor" href="#财务三表"></a> 财务三表</h2>
+<h3 id="资产负债表"><a class="markdownIt-Anchor" href="#资产负债表"></a> 资产负债表</h3>
 <p>财务三表：资产负债表、利润表、现金流量表。</p>
 <img src=".\notes-thu-xiaoxing-financial-analysis-and-decision-making\assets.svg" alt="资产利润表" style="zoom:40%;" />
-<h3 id="资产-assets"><a class="markdownIt-Anchor" href="#资产-assets"></a> 资产 Assets</h3>
+<h4 id="资产-assets"><a class="markdownIt-Anchor" href="#资产-assets"></a> 资产 Assets</h4>
 <ul>
 <li>资产按流动性/可变现顺序降低排列</li>
 <li>注意区分<strong>资产</strong>和<strong>费用</strong>：前者有用的，后者没有剩余</li>
 <li>固定资产：高价值</li>
-<li>大部分资产使用历史成本计价（历史成本可以通过卖出再买入进行更新），但金融资产和投资性房地产使用公允价值计价</li>
+<li>大部分资产使用历史成本计价（历史成本可以通过卖出再买入进行更新），但金融资产和投资性房地产使用<strong>公允价值</strong>（Fair Value）计价</li>
 </ul>
-<h3 id="负债-liabilities"><a class="markdownIt-Anchor" href="#负债-liabilities"></a> 负债 Liabilities</h3>
+<h4 id="负债-liabilities"><a class="markdownIt-Anchor" href="#负债-liabilities"></a> 负债 Liabilities</h4>
 <ul>
 <li>注意长短债，1 yr以上为长期债务</li>
 <li>预付款是一种资产，享有权益</li>
 <li>经营性租赁、长期的融资性租赁实际上是按长期付款购买</li>
 </ul>
-<h3 id="股东权益"><a class="markdownIt-Anchor" href="#股东权益"></a> 股东权益</h3>
+<h4 id="股东权益"><a class="markdownIt-Anchor" href="#股东权益"></a> 股东权益</h4>
 <ul>
 <li>资产=负债+股东权益</li>
 <li>股本（equity）=注册资本（中国特色），涉及法律偿还上线和股东权利的分割</li>
@@ -37,18 +38,126 @@ html.dataset.dark = localStorage.dark;
 <li>盈余公积（国内规定部分不得分配）</li>
 <li>未分配利润</li>
 </ul>
-<h2 id="利润表"><a class="markdownIt-Anchor" href="#利润表"></a> 利润表</h2>
+<h3 id="利润表"><a class="markdownIt-Anchor" href="#利润表"></a> 利润表</h3>
 <ul>
 <li>利息收入不记收入，直接从利息费用中扣除</li>
-<li>应税所得不等于利润总额</li>
-<li>营业税属价内税，增值税属价外税，两者都属流转税，有了经营活动就要交</li>
+<li>应税所得不等于利润总额，税率25%</li>
+<li>营业税属价内税，增值税属价外税，两者都属流转税（Turnover Tax），有了经营活动就要交</li>
 <li>所得税有了利润才交</li>
 <li>由于时间滞后，应缴税金在资产负债表属于负债，应发工资同理</li>
+<li>三项费用：营业费用、管理费用、财务费用
+<ul>
+<li>不同员工的工资属于不同费用</li>
 </ul>
-</div><div class="post-copyright"><script type="text/javascript" src="/js/copyright.js" successtext="复制成功!"></script><link rel="stylesheet" type="text/css" href="/css/copyright.css"><p><span>本文标题：</span>学习笔记 - 清华肖星「财务分析与决策」</p><p><span>文章作者：</span>Michael Chen</p><p><span>发布时间：</span>2022-05-22</p><p><span>最后更新：</span>2022-05-25</p><p><span>原始链接：</span><a href="/post/notes-thu-xiaoxing-financial-analysis-and-decision-making.html">https://blog.mchen.xyz/post/notes-thu-xiaoxing-financial-analysis-and-decision-making.html</a><span class="copy-path"><i class="fa fa-clipboard" data-clipboard-text="https://blog.mchen.xyz/post/notes-thu-xiaoxing-financial-analysis-and-decision-making.html"></i></span></p><p><span>版权声明：</span>本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0 CN</a> 许可协议。转载请注明出处！</p></div><br><div class="tags"><a href="/tags/%E7%AC%94%E8%AE%B0/"><i class="fa fa-tag"></i>笔记</a></div><div class="post-nav"><a class="pre" href="/post/wechat-one-way-friends-detected.html">微信单向好友</a><a class="next" href="/post/beancount-bql-trial.html">Beancount 之 BQL 小试牛刀</a></div><div id="waline"></div><script src="https://cdn.jsdelivr.net/npm/@waline/client"></script><script>Waline({
+</li>
+<li>补贴收入（Subsidy Income）</li>
+<li>收入/费用未必是现金，利润不等于现金流</li>
+</ul>
+<h3 id="企业13项经济活动与财务报表的关系"><a class="markdownIt-Anchor" href="#企业13项经济活动与财务报表的关系"></a> 企业13项经济活动与财务报表的关系</h3>
+<ul>
+<li>设立公司：股东投入 &gt; 股东权益 &gt; 股本（Capital Stock）</li>
+<li>短期借款</li>
+<li>固定资产（Fixed Asset）投资</li>
+<li>土地使用权（无形资产）</li>
+<li>采购原材料 &gt; 存货（Inventory）+ 应付账款（Accounts Payable）</li>
+<li>生产（原材料、人工 Labor、制造费用 &gt; 产品）&gt; 存货 （原材料、在产品、产品）：生产成本登记在资产费用表中，利润表中的营业成本是部分卖出的生产成本，营业成本属于生产环节；营业费用属于销售环节
+<ul>
+<li>提高产量不提价格可能导致毛利率<strong>增加</strong> &gt; 库存积压，固定成本转移 &gt; 重资产行业</li>
+</ul>
+</li>
+<li>销售：营业收入（利润表）、营业成本（利润表）、未分配利润（股东权益 ）</li>
+<li>采购预付款（Prepaid Accounts）</li>
+<li>支付工资：管理人员/管理费用、营业人员/销售费用</li>
+<li>研发活动：Research属于费用，Develop属于无形资产
+<ul>
+<li>专利申请费可计入无形资产</li>
+<li>外购技术属于无形资产，报表中的无形资产大多属于外购</li>
+<li>自创技术、品牌不体现在报表中</li>
+<li>研发独立于公司外 &gt; 自研技术体现在无形资产</li>
+</ul>
+</li>
+<li>支付银行利息 &gt; 财务费用</li>
+<li>所得税 &gt; Income Tax</li>
+<li>分配现金股利 &gt; 未分配利润
+<ul>
+<li>净利润10%作为盈余公积</li>
+</ul>
+</li>
+</ul>
+<h3 id="现金流量表"><a class="markdownIt-Anchor" href="#现金流量表"></a> 现金流量表</h3>
+<ul>
+<li>未分配利润连接资产负债表、利润表</li>
+<li>经营、投资、融资</li>
+<li>beancount 纯文本相当于构建现金流量表，体现在Fava 中的日记账</li>
+</ul>
+<h3 id="三表逻辑关系"><a class="markdownIt-Anchor" href="#三表逻辑关系"></a> 三表逻辑关系</h3>
+<ul>
+<li>利润表 &gt; 经营活动 {投资者}</li>
+<li>资产负债表 &gt; 投/融资活动的结果</li>
+<li>现金流量表 &gt; 关注公司的<strong>风险</strong> {银行贷款}</li>
+<li>资产负债表 + 利润表 &gt; <strong>收益</strong>的视角</li>
+<li>或有负债、表外负债</li>
+</ul>
+<h2 id="财务分析的方法"><a class="markdownIt-Anchor" href="#财务分析的方法"></a> 财务分析的方法</h2>
+<h3 id="同型分析"><a class="markdownIt-Anchor" href="#同型分析"></a> 同型分析</h3>
+<ul>
+<li>即结构分析，各部分占比，分析报表结构 看报表</li>
+</ul>
+<p>比率分析</p>
+<p>现金流分析</p>
+<p>趋势分析 vs 比较分析</p>
+<h3 id="盈利状况分析"><a class="markdownIt-Anchor" href="#盈利状况分析"></a> 盈利状况分析</h3>
+<ul>
+<li>净利润/总资产 = 总资产报酬率</li>
+<li>净利润率 = 净利润/收入，反应<strong>效益</strong></li>
+<li>收入/总资产 = 总资产周转率， 反应<strong>效率</strong> == 营运能力</li>
+</ul>
+<h3 id="营运能力分析"><a class="markdownIt-Anchor" href="#营运能力分析"></a> 营运能力分析</h3>
+<ul>
+<li>收入/资产周转率 = 资产周转率</li>
+<li>存货周转率 = 成本/存货</li>
+<li>利润表/资产负债表 &gt; 时段/时点，<strong>平均</strong>周转率</li>
+<li>应收账款 &gt; 多少day可以回收一次</li>
+<li>存货周转期 + 应收账款期</li>
+<li>净资产报酬率 = 净利润/股东权益（净资产）</li>
+</ul>
+<h3 id="短期偿债能力"><a class="markdownIt-Anchor" href="#短期偿债能力"></a> 短期偿债能力</h3>
+<ul>
+<li>短期偿债能力
+<ul>
+<li>流动资产/流动负债 = 流动比率，美国<sub>3；中国</sub>举新债还旧债~短债代替长期借款，表观流动比率偏低</li>
+<li>(流动资产-存货)/流动负债 = 速动比率</li>
+<li>流动资产 &gt; 偿债 + 运营</li>
+</ul>
+</li>
+<li>长期偿债能力
+<ul>
+<li>息税前收益 = 净利润 + 利息费用 + 所得税</li>
+<li>息税前收益/利息费用 = 倍数</li>
+<li>资产负债率 == 财务杠杆</li>
+</ul>
+</li>
+</ul>
+<h2 id="财务决策"><a class="markdownIt-Anchor" href="#财务决策"></a> 财务决策</h2>
+<ul>
+<li>企业营运能力 五力图</li>
+<li>现有竞争企业、新产品、替代品威胁、购买者的议价能力、供应商的议价能力</li>
+<li>毛利率反映了竞争情况</li>
+<li>成本领先战略</li>
+<li>差异化战略</li>
+<li>投资资本回报率 = 税后营业净利润/投资资本</li>
+<li>投资资本 &gt; 需要支付利息的负债</li>
+<li>经济利润 = 超额收益率*投资资本</li>
+<li>超额收益率 = 投资资本回报率 - 投资资本成本</li>
+<li>机会成本</li>
+<li>平均盈利水平</li>
+<li>加权平均资本成本 WACC</li>
+<li>利息税遁作用</li>
+</ul>
+</div><div class="post-copyright"><script type="text/javascript" src="/js/copyright.js" successtext="复制成功!"></script><link rel="stylesheet" type="text/css" href="/css/copyright.css"><p><span>本文标题：</span>学习笔记 - 清华肖星「财务分析与决策」</p><p><span>文章作者：</span>Michael Chen</p><p><span>发布时间：</span>2022-05-22</p><p><span>最后更新：</span>2023-02-16</p><p><span>原始链接：</span><a href="/post/notes-thu-xiaoxing-financial-analysis-and-decision-making.html">https://blog.mchen.xyz/post/notes-thu-xiaoxing-financial-analysis-and-decision-making.html</a><span class="copy-path"><i class="fa fa-clipboard" data-clipboard-text="https://blog.mchen.xyz/post/notes-thu-xiaoxing-financial-analysis-and-decision-making.html"></i></span></p><p><span>版权声明：</span>本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0 CN</a> 许可协议。转载请注明出处！</p></div><br><div class="tags"><a href="/tags/%E7%AC%94%E8%AE%B0/"><i class="fa fa-tag"></i>笔记</a></div><div class="post-nav"><a class="pre" href="/post/wechat-one-way-friends-detected.html">微信单向好友</a><a class="next" href="/post/tj-fch-dermatology.html">天津一中心皮肤科踩坑记</a></div><div id="waline"></div><script src="https://cdn.jsdelivr.net/npm/@waline/client"></script><script>Waline({
   el: '#waline',
   serverURL: 'https://comment.mchen.xyz',
   pageSize: '10',
   avatar: 'monsterid',
 })
-</script></div></div></div><div class="pure-u-1 pure-u-md-1-4"><div id="sidebar"><div class="widget"><form class="search-form" action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank"><input type="text" name="q" maxlength="20" placeholder="Search"/><input type="hidden" name="sitesearch" value="https://blog.mchen.xyz"/></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/LOG/">LOG</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%B9%B4%E5%BF%97/">年志</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%96%87%E6%A1%A3%E5%A4%84%E7%90%86/">文档处理</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%AC%94%E8%AE%B0/">笔记</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%80%83%E8%AF%95/">考试</a><span class="category-list-count">7</span></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/%E5%8C%96%E5%AD%A6/" style="font-size: 15px;">化学</a> <a href="/tags/%E8%80%83%E7%A0%94/" style="font-size: 15px;">考研</a> <a href="/tags/%E5%B7%A5%E4%BD%9C/" style="font-size: 15px;">工作</a> <a href="/tags/beancount/" style="font-size: 15px;">beancount</a> <a href="/tags/PDF/" style="font-size: 15px;">PDF</a> <a href="/tags/Hexo/" style="font-size: 15px;">Hexo</a> <a href="/tags/%E5%B9%B4%E5%BF%97/" style="font-size: 15px;">年志</a> <a href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" style="font-size: 15px;">读书笔记</a> <a href="/tags/%E7%AC%94%E8%AE%B0/" style="font-size: 15px;">笔记</a> <a href="/tags/%E5%9B%9E%E5%BF%86/" style="font-size: 15px;">回忆</a> <a href="/tags/%E7%9A%AE%E8%82%A4%E7%A7%91/" style="font-size: 15px;">皮肤科</a> <a href="/tags/%E5%A4%A9%E6%B4%A5%E4%B8%80%E4%B8%AD%E5%BF%83/" style="font-size: 15px;">天津一中心</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/post/COVID-infection-2022.html">新冠渡劫指北2022版</a></li><li class="post-list-item"><a class="post-list-link" href="/post/summary-2022.html">「年志」重新出发2022</a></li><li class="post-list-item"><a class="post-list-link" href="/post/most-used-excel-functions.html">常用 Excel/Google Sheet 函数备忘</a></li><li class="post-list-item"><a class="post-list-link" href="/post/anxiety-before-starting-a-job.html">入职前的几点焦虑</a></li><li class="post-list-item"><a class="post-list-link" href="/post/wechat-one-way-friends-detected.html">微信单向好友</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div><ul></ul><a href="http://skleoc.nankai.edu.cn/" title="SKLEOC" target="_blank">SKLEOC</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2019 – 2023 <a href="/." rel="nofollow">Michael Chen.</a> 由<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo 驱动 |</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Maupassant 主题 |</a> <a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referral" rel="nofollow noopener">又拍云<img src="https://s2.loli.net/2022/05/25/tpIyaCRAeKJ8BgY.gif" height="15px"/></a>提供CDN加速/云存储服务.</div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.css"><script type="text/javascript" src="/js/copycode.js" successtext="复制成功!"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>
+</script></div></div></div><div class="pure-u-1 pure-u-md-1-4"><div id="sidebar"><div class="widget"><form class="search-form" action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank"><input type="text" name="q" maxlength="20" placeholder="Search"/><input type="hidden" name="sitesearch" value="https://blog.mchen.xyz"/></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/LOG/">LOG</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%B9%B4%E5%BF%97/">年志</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%96%87%E6%A1%A3%E5%A4%84%E7%90%86/">文档处理</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%AC%94%E8%AE%B0/">笔记</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%80%83%E8%AF%95/">考试</a><span class="category-list-count">7</span></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/%E5%B7%A5%E4%BD%9C/" style="font-size: 15px;">工作</a> <a href="/tags/beancount/" style="font-size: 15px;">beancount</a> <a href="/tags/%E5%8C%96%E5%AD%A6/" style="font-size: 15px;">化学</a> <a href="/tags/PDF/" style="font-size: 15px;">PDF</a> <a href="/tags/Hexo/" style="font-size: 15px;">Hexo</a> <a href="/tags/%E8%80%83%E7%A0%94/" style="font-size: 15px;">考研</a> <a href="/tags/%E5%B9%B4%E5%BF%97/" style="font-size: 15px;">年志</a> <a href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" style="font-size: 15px;">读书笔记</a> <a href="/tags/%E7%AC%94%E8%AE%B0/" style="font-size: 15px;">笔记</a> <a href="/tags/%E5%9B%9E%E5%BF%86/" style="font-size: 15px;">回忆</a> <a href="/tags/%E7%9A%AE%E8%82%A4%E7%A7%91/" style="font-size: 15px;">皮肤科</a> <a href="/tags/%E5%A4%A9%E6%B4%A5%E4%B8%80%E4%B8%AD%E5%BF%83/" style="font-size: 15px;">天津一中心</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/post/beancount-review.html">Beancount 记账复盘</a></li><li class="post-list-item"><a class="post-list-link" href="/post/COVID-infection-2022.html">新冠渡劫指北2022版</a></li><li class="post-list-item"><a class="post-list-link" href="/post/summary-2022.html">「年志」重新出发2022</a></li><li class="post-list-item"><a class="post-list-link" href="/post/most-used-excel-functions.html">常用 Excel/Google Sheet 函数备忘</a></li><li class="post-list-item"><a class="post-list-link" href="/post/anxiety-before-starting-a-job.html">入职前的几点焦虑</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div><ul></ul><a href="http://skleoc.nankai.edu.cn/" title="SKLEOC" target="_blank">SKLEOC</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2019 – 2023 <a href="/." rel="nofollow">Michael Chen.</a> 由<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo 驱动 |</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Maupassant 主题 |</a> <a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referral" rel="nofollow noopener">又拍云<img src="https://s2.loli.net/2022/05/25/tpIyaCRAeKJ8BgY.gif" height="15px"/></a>提供CDN加速/云存储服务.</div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.css"><script type="text/javascript" src="/js/copycode.js" successtext="复制成功!"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>
